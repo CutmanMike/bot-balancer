@@ -19,3 +19,7 @@ Define what bot you want to use for this slot. *X* is the team number (1-4) and 
 ## Limitations
 * Having multiple bots of the same name will cause problems. This is due to the limited RemoveBot command which only takes player names. To get around this just make copies of bots in a BOTINFO with different names.
 * You can only have a maximum of 4 teams and 12 bots per team currently.
+
+## Download
+
+https://allfearthesentinel.com/zandronum/download.php?file=botbalancer-1b.pk3
