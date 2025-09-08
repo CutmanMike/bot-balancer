@@ -1,7 +1,7 @@
 # Bot Balancer
 Bot Balancer is a mod that adds bots to Zandronum servers, then removes them as human players arrive.
 
-The purpose of this mod is to give players something to do while waiting for human players to arrive in their server, removing the bots when they are no longer needed. It also has a second function, which tries to prevent bot only LMS matches from soft locking.
+The purpose of this mod is to give players something to do while waiting for human players to arrive in their server, removing the bots when they are no longer needed. It also has a second function, which tries to prevent bot only LMS matches from soft locking by teleporting bots near eachother when no human players remain.
 
 ## Server Config
 ### botbalancer_botcount
@@ -17,7 +17,7 @@ Enables LMS "fast forwarding" when only bot players remain in a round. Bots will
 Define what bot you want to use for this slot. *X* is the team number (1-4) and *Y* is the bot number (1-12). In non team games, only team 1 is used. Be sure to disable **botbalancer_detectgame** if you wish to customize the bot list.
 
 ## Limitations
-* Having multiple bots of the same name will cause problems. This is due to the limited RemoveBot command which only takes player names. To get around this just make copies of bots in a BOTINFO with different names.
+* Having multiple bots of the same name will cause problems. This is due to the limited RemoveBot command which only takes player names. To get around this just make mew bots in a BOTINFO with different names.
 * You can only have a maximum of 4 teams and 12 bots per team currently.
 
 ## Download
